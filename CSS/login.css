@@ -1,0 +1,34 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#login {
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  width: 30%;
+
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bg-splash {
+  background: url("../img/login_splash.jpg") no-repeat center center fixed;
+  background-size: cover;
+
+  filter: blur(0.9rem);
+  -webkit-filter: blur(0.9rem);
+  dark-filter: blur(0.9rem);
+
+  height: 100%;
+}
+
+@media (max-width: 1000px) {
+  #login {
+    width: 80%;
+  }
+}
